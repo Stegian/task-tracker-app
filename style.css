@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: lightgreen;
+    font-family: "Mynerve", cursive;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+    background-color: lightblue;
+}
