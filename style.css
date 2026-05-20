@@ -1,22 +1,50 @@
-* {
-    box-sizing: border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-body {
-    margin: 0;
-    background-color: lightgreen;
-    font-family: "Mynerve", cursive;
-}
+    body {
+        margin: 0;
+        background-color: lightgreen;
+        font-family: "Mynerve", cursive;
+    }
+    header {
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;    
+        background-color: lightyellow;
+    }
 
-main {
-    display: flex;
-}
+    header h1 {
+        background-color: rgb(135, 222, 147);
+    }
 
-section {
-    width: 70%;
-}
+    button {
+        background-color: rgb(238, 12, 238);
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        box-shadow: 10px 10px 5px 0px rgba(2, 2, 2, 0.75);
+        transition: background-color 300ms ease;
+    }
+    
+    button:hover {
+        background-color: rgba(238, 234, 12, 0.8);
+    }
 
-aside {
-    width: 30%;
-    background-color: lightblue;
-}
+    main {
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    section {
+        flex: 7;
+        background-color: lightcoral;
+    }
+
+    aside {
+        flex: 3;
+        background-color: lightblue;
+    }
